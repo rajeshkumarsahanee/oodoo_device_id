@@ -42,7 +42,7 @@ class ConstantDeviceId {
   ConstantDeviceId._();
 
   static const _secureStorage = FlutterSecureStorage(
-    aOptions: AndroidOptions(encryptedSharedPreferences: true),
+    aOptions: AndroidOptions(),
     iOptions: IOSOptions(
       /// The Keychain item is kept after the app is uninstalled on iOS.
       accessibility: KeychainAccessibility.first_unlock,

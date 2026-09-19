@@ -3,7 +3,7 @@ description: >
   A Flutter plugin that provides a permanent device identifier that persists
   across app reinstalls. Uses Widevine DRM on Android and the system Keychain
   on iOS for hardware-level persistence.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/your-org/constant_device_id
 repository: https://github.com/your-org/constant_device_id
 issue_tracker: https://github.com/your-org/constant_device_id/issues
@@ -15,7 +15,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  crypto: ^3.0.6
+  crypto: ^3.0.7
   flutter_secure_storage: ^11.2.0
   plugin_platform_interface: ^2.1.8
   shared_preferences: ^2.5.5
